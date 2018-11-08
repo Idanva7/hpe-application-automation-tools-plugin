@@ -28,6 +28,7 @@ import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Iterator;
 
+import com.microfocus.application.automation.tools.run.PcBuilder;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.HttpVersion;
@@ -38,10 +39,9 @@ import org.apache.http.entity.FileEntity;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.message.BasicHttpResponse;
 
-import com.microfocus.adm.performancecenter.plugins.common.pcEntities.*;
-import com.microfocus.application.automation.tools.run.PcBuilder;
+import com.microfocus.adm.performancecenter.plugins.common.pcentities.*;
 
-import static com.microfocus.adm.performancecenter.plugins.common.pcEntities.RunState.*;
+import static com.microfocus.adm.performancecenter.plugins.common.pcentities.RunState.*;
 import com.microfocus.adm.performancecenter.plugins.common.rest.PcRestProxy;
 
 public class MockPcRestProxy extends PcRestProxy {
